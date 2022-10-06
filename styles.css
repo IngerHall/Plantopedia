@@ -18,7 +18,6 @@ body {
 a {
     color: black;
     text-decoration: underline dotted;
-    font-size: 15px;
 }
 
 #nav {
@@ -45,5 +44,9 @@ a {
 
 #text {
     text-align: start;
-    font-size: 15px;
+    border-bottom: 0.5px solid grey;
+}
+
+#bottom {
+    padding: 10px;
 }
