@@ -1,7 +1,7 @@
 body {
     width: 600px;
     margin: auto;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 
@@ -18,11 +18,12 @@ body {
 a {
     color: black;
     text-decoration: underline dotted;
+    font-size: 15px;
 }
 
 #nav {
     display: inline-block;
-    padding: 20px 10px 20px 10px;
+    padding: 15px 10px 15px 10px;
 }
 
 #image {
@@ -38,4 +39,9 @@ a {
 
 #middle {
     border-top: 0.5px solid grey;
+}
+
+#text {
+    text-align: start;
+    font-size: 15px;
 }
