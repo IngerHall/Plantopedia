@@ -1,5 +1,5 @@
 body {
-    max-width: 40vw;
+    max-width: 30vw;
     margin: auto;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
@@ -8,9 +8,11 @@ body {
 #top {
     background-color: rgb(225, 224, 162, 0.43);
     color: #a8855f;
-    height: 150px;
-    margin-top: 20px;
-    padding-top: 20px;
+    height: 100px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
 }
 
 a {
@@ -20,4 +22,15 @@ a {
 #links {
     padding: 20px;
     border-bottom: 0.5px solid grey;
+}
+
+#image {
+    background-image: url("china_rose.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
 }
